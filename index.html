@@ -24,6 +24,12 @@ layout: default
             {{ post.title }}
           </a>
         </h2>
+        {{ post.content | strip_html | truncatewords:40 }}<br>
+        {% if post.link %}
+            <a href="{{ post.url }}">Read more...</a><br><br>
+        {% else %}
+            <a href="{{ post.url }}">Read more...</a><br><br>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>
