@@ -8,19 +8,21 @@ Hi, I'm Alex. I work as a developer at [UVD](http://uvd.co.uk/) where I build we
 , dev-ops and most recently, [Elixr](http://elixir-lang.org/). I studied Computing (BSc) at The University of the West of England.
 
 
-==Skills==
+**Skills**
 
 Programming:
+
 * PHP
 * Symfony2/3
 * Python
 * Java/Android
  
 Other:
- - Git
- - SQL
- - Linux server administration
- - HTML/CSS
+
+* Git
+* SQL
+* Linux server administration
+* HTML/CSS
 
 Symfony/LEMP is my default stack and tend to write in PHPStorm using the Vim plugin.
 
