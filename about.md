@@ -4,12 +4,23 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hi, I'm Alex. I work as a developer at [UVD](http://uvd.co.uk/) where I build web apps. I also dabble in a bit of Python
+, dev-ops and most recently, [Elixr](http://elixir-lang.org/). I studied Computing (BSc) at The University of the West of England.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+==Skills==
+
+Programming:
+* PHP
+* Symfony2/3
+* Python
+* Java/Android
+ 
+Other:
+ - Git
+ - SQL
+ - Linux server administration
+ - HTML/CSS
+
+Symfony/LEMP is my default stack and tend to write in PHPStorm using the Vim plugin.
+
