@@ -5,3 +5,7 @@ date:   2016-03-10 12:30:34 +0000
 link:   http://www.uvd.co.uk/blog/using-the-command-bus-in-symfony/
 categories: symfony
 ---
+
+I first heard about ‘message oriented software design’ at SymfonyLive back in September at Matthias Noback’s talk 
+“Hexagonal Architecture”. A command bus consists of three parts: the command, which is essentially a message, the 
+handler which processes the message and the bus which sends the command to the correct handler.
