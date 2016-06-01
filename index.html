@@ -26,7 +26,7 @@ layout: default
         </h2>
         {{ post.content | strip_html | truncatewords:40 }}<br>
         {% if post.link %}
-            <a href="{{ post.url }}">Read more...</a><br><br>
+            <a href="{{ post.link }}">Read more...</a><br><br>
         {% else %}
             <a href="{{ post.url }}">Read more...</a><br><br>
         {% endif %}
