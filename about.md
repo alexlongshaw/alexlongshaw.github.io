@@ -4,8 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm Alex. I work as a developer at [UVD](http://uvd.co.uk/) where I build web apps. I also dabble in a bit of Python
-, dev-ops and most recently, [Elixr](http://elixir-lang.org/). I studied Computing (BSc) at The University of the West of England.
+Hi, I'm Alex. I work as a developer at [UVD](http://uvd.co.uk/) where I build web apps. I also dabble in a bit of Python, dev-ops and most recently, [Elixr](http://elixir-lang.org/). I studied Computing (BSc) at The University of the West of England.
 
 
 **Skills**
