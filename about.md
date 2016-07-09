@@ -20,7 +20,7 @@ Other:
 
 * Git
 * SQL
-* Linux server administration
+* AWS/Linux server administration
 * HTML/CSS
 
 Symfony/LEMP is my default stack and tend to write in PHPStorm using the Vim plugin.
