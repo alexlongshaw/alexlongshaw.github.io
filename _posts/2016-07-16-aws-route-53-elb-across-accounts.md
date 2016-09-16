@@ -3,6 +3,7 @@ layout: post
 title:  "Setting up DNS for ELB Route 53 across multiple accounts"
 date:   2016-07-16 20:22:00 +0000
 categories: aws
+disqus_id: b6bf5e5a-e980-474f-b1b0-767117954435
 ---
 
 Our testing environments are setup in the configuration “client-site.testing.our-company.com”, using AWS Route 53 to manage DNS records. This is hosted on our client’s AWS account, however our DNS is configured through Route 53 on our own account.
