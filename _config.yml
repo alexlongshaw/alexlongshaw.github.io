@@ -6,8 +6,6 @@ permalink: /:year/:title
      
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.alexlongshaw.com" # the base hostname & protocol for your site
-twitter_username: alexlongshaw
-github_username:  alexlongshaw
 
 # Build settings
 markdown: kramdown
