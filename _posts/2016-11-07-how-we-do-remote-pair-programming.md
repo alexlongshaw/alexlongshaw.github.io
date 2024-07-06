@@ -3,10 +3,7 @@ layout: post
 title:  "How we do remote pair programming"
 date:   2016-11-07 12:30:34 +0000
 categories: pair-programming
-disqus_id: 8c5b58c1-bbef-417c-aacd-05837434272f
 ---
-
-*This post was originally available at: https://www.uvd.co.uk/blog/remote-pair-programming/*
 
 We’ve recently moved to flexitime at UVD, so we’ve been waiting for a good time to try remote pair programming. We
 thought we’d share how we do it. We hosted a user story mapping workshop recently with seven attendees, as well as the
@@ -72,3 +69,5 @@ to avoid screen sharing issues.
 We’re planning on doing this again soon. To avoid some of the screen sharing issues we are going to try using a mixture
 of screen sharing and using AtomPair. It’s not either of our main IDEs but we feel the benefits are worth trying for a
 day. We’ll update this blog post with how we got on.
+
+*This was originally posted to UVD, but is no longer available in its original source.*

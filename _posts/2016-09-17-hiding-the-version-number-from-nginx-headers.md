@@ -3,10 +3,9 @@ layout: post
 title:  "Hiding the version number from NGINX headers"
 date:   2016-09-17 17:28:00 +0000
 categories: security
-disqus_id: 76f90e62-3390-4dd7-b68d-40d10aa961b8
 ---
 
-#### So, what is “hardening” exactly?
+### So, what is “hardening” exactly?
 
 Hardening is the process of limiting the attack surface of your application and the supporting services. If you want to 
 learn more about what an attack surface is, [OWASP](https://www.owasp.org/index.php/Attack_Surface_Analysis_Cheat_Sheet) 
@@ -21,7 +20,7 @@ Known vulnerabilities are much easier to protect yourself from, but surprisingly
 vulnerabilities which are two to four years old”[1]. We can minimise this risk by keeping software up to date and hiding 
 the version numbers of software, such as NGINX.
 
-#### Finding the version number
+### Finding the version number
 
 There are a number of ways you can find version numbers so we’re just going to look at [curl](https://curl.haxx.se/) in 
 the command line of a *NIX environment (Mac OSX/Linux). Other methods you could use include sending HTTP requests to the 
@@ -42,7 +41,7 @@ Server: nginx/1.1.19
 Connection: keep-alive
 ```
 
-#### What are the risks?
+### What are the risks?
 
 Now our attacker knows the version of NGINX, they can look through [known vulnerabilities](http://nginx.org/en/security_advisories.html) 
 that they can use to cause denial of service or get access to potentially sensitive information.
