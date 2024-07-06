@@ -4,26 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm Alex. I work as a Software Architect at [Lendable](https://www.lendable.co.uk/) where I build web apps. I also dabble in a bit of Python, Android, dev-ops and most recently, [Elixr](http://elixir-lang.org/). I studied Computing (BSc) at The University of the West of England.
+ Hi, I'm Alex. I am a seasoned Security Architect, working at [Lendable](https://www.lendable.co.uk/), primarily work on auditing, web application security, managing compliance initives and programming. I have spent much of my career working regulated environments, particularly in the financial services sector. 
 
-When I'm not at work, you can find me cycling/running, fixing things, watching Netflix or occasionally skiing.
+### Education 
 
-
-**Skills**
-
-Programming:
-
-* PHP
-* Symfony2/3
-* Python
-* Java/Android
- 
-Other:
-
-* Git
-* SQL
-* AWS/Linux server administration
-* HTML/CSS
-
-Symfony/LEMP is my default stack and tend to write in PHPStorm using the Vim plugin.
-
+Computing (BSc) at The University of the West of England.
