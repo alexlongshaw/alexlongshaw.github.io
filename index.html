@@ -5,7 +5,7 @@ layout: default
 <div class="home">
 
   <h1 class="post-title">Hi, I'm Alex</h1>
-  <h2>Developer at Lendable</h2>
+  <h2>Security Architect at Lendable</h2>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -13,23 +13,12 @@ layout: default
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          <a class="post-link" href="
-            {% if post.link %}
-              {{ post.link }}
-            {% else %}
-              {{ post.url | prepend: site.baseurl }}
-            {% endif %}
-              "
-          >
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
             {{ post.title }}
           </a>
         </h2>
         {{ post.content | strip_html | truncatewords:40 }}<br>
-        {% if post.link %}
-            <a href="{{ post.link }}">Read more...</a><br><br>
-        {% else %}
-            <a href="{{ post.url }}">Read more...</a><br><br>
-        {% endif %}
+        <a href="{{ post.url }}">Read more...</a><br><br>
       </li>
     {% endfor %}
   </ul>
