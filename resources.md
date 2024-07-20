@@ -14,6 +14,8 @@ If you're looking to understand where (the many) cybersecurity certifications ov
 #### [tl;dr sec](https://tldrsec.com/){:target="_blank" rel="noopener"}
 It's worth joining the mailing list here if you're short on time to keep up with security news.
 
+#### [Dark Reading](https://www.darkreading.com/){:target="_blank" rel="noopener"}
+
 ### Podcasts
 
 #### [Darknet Diaries](https://darknetdiaries.com/){:target="_blank" rel="noopener"}
