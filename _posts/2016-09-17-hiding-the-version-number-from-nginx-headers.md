@@ -8,7 +8,7 @@ categories: security
 ### So, what is “hardening” exactly?
 
 Hardening is the process of limiting the attack surface of your application and the supporting services. If you want to 
-learn more about what an attack surface is, [OWASP](https://www.owasp.org/index.php/Attack_Surface_Analysis_Cheat_Sheet) 
+learn more about what an attack surface is, [OWASP](https://www.owasp.org/index.php/Attack_Surface_Analysis_Cheat_Sheet){:target="_blank" rel="noopener"} 
 have some great resources.
 
 The vast majority of websites are hackable with enough resources and attacks can come in many forms. This post will cover 
@@ -22,9 +22,9 @@ the version numbers of software, such as NGINX.
 
 ### Finding the version number
 
-There are a number of ways you can find version numbers so we’re just going to look at [curl](https://curl.haxx.se/) in 
+There are a number of ways you can find version numbers so we’re just going to look at [curl](https://curl.haxx.se/){:target="_blank" rel="noopener"} in 
 the command line of a *NIX environment (Mac OSX/Linux). Other methods you could use include sending HTTP requests to the 
-website in something like [Postman](https://www.getpostman.com/) or by using a tool such as [Wappalyzer](https://wappalyzer.com/), which is 
+website in something like [Postman](https://www.getpostman.com/) or by using a tool such as [Wappalyzer](https://wappalyzer.com/){:target="_blank" rel="noopener"}, which is 
 available as a browser extension for Chrome and Firefox.
 
 ```curl --head http://www.example.com```
@@ -43,7 +43,7 @@ Connection: keep-alive
 
 ### What are the risks?
 
-Now our attacker knows the version of NGINX, they can look through [known vulnerabilities](http://nginx.org/en/security_advisories.html) 
+Now our attacker knows the version of NGINX, they can look through [known vulnerabilities](http://nginx.org/en/security_advisories.html){:target="_blank" rel="noopener"} 
 that they can use to cause denial of service or get access to potentially sensitive information.
 
 If we look at the known vulnerabilities in this version, we can see the following potential medium severity risks. 
@@ -91,4 +91,4 @@ so it is still important to update software as soon as security patches become a
 
 ---
 
-[1] [http://www.theregister.co.uk/](http://www.theregister.co.uk/2015/02/23/hp_hack_vulnerable_threat_study/)
+[1] [http://www.theregister.co.uk/](http://www.theregister.co.uk/2015/02/23/hp_hack_vulnerable_threat_study/){:target="_blank" rel="noopener"}

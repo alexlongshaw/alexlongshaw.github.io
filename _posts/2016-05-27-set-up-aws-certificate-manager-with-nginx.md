@@ -9,9 +9,9 @@ categories: aws
 
 I was recently tasked with getting an SSL certificate for uvd.co.uk (or TLS I should say). We’ve used them on a few websites before which has worked great in the production environment, but we’ve always had ugly ‘insecure content’ warnings on our testing and staging environments. I was keen to avoid this and not wanting to buy two certificates, I looked at the free offerings.
 
-The main player that’s had a lot of press attention is [Let’s Encrypt](https://letsencrypt.org/). They’ve been doing some great work and whilst being used in production environments, it still takes some work to setup and requires renewal every 90 days. This can be automated but caused me to look at what else was out there.
+The main player that’s had a lot of press attention is [Let’s Encrypt](https://letsencrypt.org/){:target="_blank" rel="noopener"}. They’ve been doing some great work and whilst being used in production environments, it still takes some work to setup and requires renewal every 90 days. This can be automated but caused me to look at what else was out there.
 
-Earlier this year, Amazon released [AWS Certificate Manager (ACM)](https://aws.amazon.com/certificate-manager/), which provides free SSL certificates for its customers. All you have to do it pay for the resources. You can only use these on Elastic Load Balancing (ELB), which is great for us as that’s exactly what we use.
+Earlier this year, Amazon released [AWS Certificate Manager (ACM)](https://aws.amazon.com/certificate-manager/){:target="_blank" rel="noopener"}, which provides free SSL certificates for its customers. All you have to do it pay for the resources. You can only use these on Elastic Load Balancing (ELB), which is great for us as that’s exactly what we use.
 
 ### So, let’s get started.
 
@@ -35,7 +35,7 @@ Don’t forget to check your health check. We’re going to shortly be doing a r
 
 The SSL certificate should now be available on your website, but we need to do some configuring before it’s ready to run on your production servers.
 
-As we added SSL to the load balancer, not our instance, we don’t have to deal with configuring keys or listening on a new port. As far as the web server is concerned we’re still running under HTTP which comes with it’s own problems. Luckily AWS are one step ahead and have a (header we can use)[https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/x-forwarded-headers.html] for this purpose.
+As we added SSL to the load balancer, not our instance, we don’t have to deal with configuring keys or listening on a new port. As far as the web server is concerned we’re still running under HTTP which comes with it’s own problems. Luckily AWS are one step ahead and have a (header we can use)[https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/x-forwarded-headers.html]{:target="_blank" rel="noopener"} for this purpose.
 
 ```
 server {
@@ -58,6 +58,6 @@ server {
 
 You may also have to edit settings in your application to tell it you’re using HTTPS. This will likely be in a config file or a setting in a database.
 
-You’ll most likely have some insecure content warnings now. You can’t load insecure content over HTTPS so make sure that you aren’t loading any images or scripts over HTTP. Google Developers have a good [guide](https://web.dev/articles/fixing-mixed-content) on this so give it a read if you want to learn more.
+You’ll most likely have some insecure content warnings now. You can’t load insecure content over HTTPS so make sure that you aren’t loading any images or scripts over HTTP. Google Developers have a good [guide](https://web.dev/articles/fixing-mixed-content){:target="_blank" rel="noopener"} on this so give it a read if you want to learn more.
 
 And that’s it. You should should now have a working website behind HTTPS and the best thing is, it doesn’t require maintenance like traditional SSL certificates. There’s no need to renew as AWS does it all automatically for you approximately once a year.

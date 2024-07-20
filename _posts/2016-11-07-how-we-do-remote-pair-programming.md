@@ -12,8 +12,8 @@ we’ve been pair programming on Limpid Markets, we wanted to find a way to carr
 office. Living at opposite ends of London, it wasn’t practical for us to meet up, unless we ended up somewhere near the
 office anyway so we had a look into some remote pair programming options.
 
-We looked at a few technologies such as [Screenhero](https://screenhero.com/) by Slack and the
-[AtomPair](https://blog.pusher.com/atom-pair/) plugin but these either came at a price or involved some set up. Since
+We looked at a few technologies such as [Screenhero](https://screenhero.com/){:target="_blank" rel="noopener"} by Slack and the
+[AtomPair](https://blog.pusher.com/atom-pair/){:target="_blank" rel="noopener"} plugin but these either came at a price or involved some set up. Since
 we’re both using MacBook Pros we decided to use the built in screen sharing app which allows one user to be the host and
 the other to remote in so we could keep using the tools we’re used to.
 
@@ -55,7 +55,7 @@ knew we were available to test and setup QA sessions as items on the Kanban boar
 #### The cons
 
 Although we were pair programming remotely, we found it could all too easily push the host to be the driver. Using
-something like a [pomodora timer](https://www.marinaratimer.com/) would have been helpful to keep us on track.
+something like a [pomodora timer](https://www.marinaratimer.com/){:target="_blank" rel="noopener"} would have been helpful to keep us on track.
 
 We also had some questions for Eddy, our lead developer. We got through okay asking questions on Slack and showing
 commits on BitBucket and but harder issues might have been a problem. Usually he would come to my desk and we could
