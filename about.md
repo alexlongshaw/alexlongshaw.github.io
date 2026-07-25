@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
- Hi, I'm Alex. I am a seasoned Security Architect, working at [Lendable](https://www.lendable.co.uk/){:target="_blank" rel="noopener"}, primarily work on auditing, web application security, managing compliance initives and programming. I have spent much of my career working regulated environments, particularly in the financial services sector. 
+I'm Alex, a Security GRC Lead at [Lendable](https://www.lendable.co.uk/){:target="_blank" rel="noopener"}, where I focus on audit, policy, and compliance frameworks including ISO 27001, PCI DSS, and SOC 1/2. Most of my career has been spent in regulated environments, particularly financial services, working at the intersection of security, risk, and compliance to help organisations build and maintain trust with customers and regulators.
 
-### Education 
-
-Computing (BSc) at The University of the West of England.
+### Education
+MSc Cyber Security - University of London
+BSc Computing - University of the West of England
